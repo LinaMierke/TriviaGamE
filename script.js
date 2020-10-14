@@ -11,4 +11,18 @@
 //3. Second question with picture with different options is load 
 //4. score is load .. maybe 1/5 or maybe % 
 // 5 a botton to try again is loaded
-console.log("hello")
+// let questions = document.createElement('div');
+// questions.className= "questions";
+// questions.innerText= "First Question";
+// document.body.appendChild(questions);
+// console.log(questions);
+
+let button= document.querySelector(".start");
+button.addEventListener('click', function(e){
+    let questions= document.querySelector(".questions")
+    if(questions.style.display == 'block'){
+        e.style.display== 'none'
+  return questions;
+    }
+    })
+
