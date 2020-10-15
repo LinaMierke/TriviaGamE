@@ -92,6 +92,14 @@ q10right.addEventListener('click', function(e){
     let final= document.querySelector('.final')
     final.style.display = "block"
 })
+// let finalB= document.querySelector(".final")
+// finalB.addEventListener('click', function(e){
+//     final.style.display = ""
+// })
+
+
+
+
 
 let wrong = document.getElementsByClassName("wrong");
 for (var i = 0 ; i < wrong.length; i++) {
