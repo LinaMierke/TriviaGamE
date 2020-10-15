@@ -20,9 +20,11 @@ justify-content: center;
 h2{
     font-family: 'Bungee Shade', cursive;
     font-size: 100px;
-    color : #ffe6ff;
+    /* color : #ffe6ff; */
+    /* color: #f400cb; */
+    color: #FF007C;
     background-image: radial-gradient(
-    ellipse 50% 35% at 50% 50%,
+    ellipse 100% 35% at 100% 100%,
     transparent
   );
   
@@ -40,12 +42,8 @@ h2{
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   } 
-/* .questions{
-border: 1px solid white;
-color: white;
-} */
+
 .q1{
-  /* border: 2px solid red; */
   color: white;
 }
   p{
@@ -62,7 +60,7 @@ color: white;
   text-align: center;
   color: white;
   }
-  .right{
+  .right {
     font-size: 40px;
     border: 2px solid white;
     /* color: white */
@@ -71,6 +69,27 @@ color: white;
     font-size: 40px;
     border: 2px solid white;
     
-    
   }
 
+.rights{
+  font-size: 40px;
+    border: 2px solid white;
+}
+.rights:hover {
+  background: #CCFF00;
+  animation:blinkingText 0.8s
+
+  
+}
+.wrong:hover {
+  background: #CCFF00;
+  animation:blinkingText 0.7s;
+  
+}
+@keyframes blinkingText{
+	0%{		color: white;	}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	50%{	color: white;	}
+}
