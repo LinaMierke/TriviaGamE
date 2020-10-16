@@ -1,5 +1,5 @@
-#Name
-Trivia
+Name
+Trivia Night
 
 Description
 The user will prove his knowledge by answering the different questions. There are 10 questions about music, history, sports and more.
@@ -24,7 +24,7 @@ License
 Open License
 
 Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Completed.
 
 
 
