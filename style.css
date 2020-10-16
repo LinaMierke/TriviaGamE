@@ -85,7 +85,7 @@ h2, h1 {
 }
 .wrong:hover {
   background: #CCFF00;
-  animation:blinkingText 0.7s;
+  animation:blinkingText 0.8s;
   
 }
 @keyframes blinkingText{
